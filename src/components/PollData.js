@@ -13,7 +13,7 @@ class PollData extends Component{
     }
 
     getVotes(){
-        let url = "http://"+window.location.hostname + ":8000/getPolls"
+        let url = "http://"+129.146.146.47 + ":8000/getPolls"
 
         axios.get(url, {})
             .then((resp) =>{
